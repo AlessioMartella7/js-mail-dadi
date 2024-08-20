@@ -19,3 +19,12 @@ Cosa devo controllare esattamente?
 - La mail dell'utente va raccolta tramite input  e con l'aiuto di un button , non con un prompt.
 - Non è necessario usare il tag <form>, ma se lo usate, ricordate di impedire il comportamento di default dell'evento altrimenti il form ricaricherà la pagina. In alternativa, potete impostare il type="button" sul <button> .
 - L'esito del controllo deve essere stampato in pagina */
+
+// ESERCIZIO DADI
+//1 raccolgo i dati da DOM
+//2 genero un numero random per il giocatore e uno per il computer
+//3 stabilisco il vincitore confrontando i risultati
+//4 rimando il risultato in pagina
+
+//1 raccolgo i dati da DOM
+const resultMessage = document.getElementById('result');
