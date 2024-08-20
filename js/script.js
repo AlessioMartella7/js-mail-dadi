@@ -1,4 +1,3 @@
-console.log('js ok')
 
 
 /* ESERCIZIO 1 - Gioco dei dadi
@@ -35,3 +34,22 @@ const computerNumber = Math.floor(Math.random() * 6) +1 ;
 
 console.log('playerNumber', playerNumber)
 console.log('computerNumber', computerNumber)
+
+//3 stabilisco il vincitore confrontando i risultati
+
+let message = 'Pari!';
+
+if(playerNumber > computerNumber) {
+    message = 'Hai vinto!'
+   
+} else if (playerNumber < computerNumber) {
+    message = 'Hai perso!'
+}
+
+console.log(message)
+
+//4 rimando il risultato in pagina
+resultMessage.innerHTML = ` <p> <strong>Hai fatto</strong> : ${ playerNumber} </p>
+<p> <strong>Il computer ha fatto</strong> : ${ computerNumber} </p>
+<p> <strong>${message}</strong></p>
+`

@@ -17,3 +17,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
 }
+
+#result p:last-child {
+    color: red;
+}
