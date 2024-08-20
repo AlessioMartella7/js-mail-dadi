@@ -14,4 +14,7 @@ Cosa devo controllare esattamente?
 
 //1 recupero gli elementi dal DOM
 //2 Creo un array contenente le email autorizzate
-//3 
+//3 aggiungo dinamicità al mio button
+//4 eseguo un controllo per verificare che la mail sia nella lista autorizzata
+//5 preparo un messaggio da rimandare all'utente
+//6 invio il messaggio al DOM
