@@ -28,3 +28,10 @@ Cosa devo controllare esattamente?
 
 //1 raccolgo i dati da DOM
 const resultMessage = document.getElementById('result');
+
+//2 genero un numero random per il giocatore e uno per il computer
+const playerNumber = Math.floor(Math.random() * 6 ) +1;
+const computerNumber = Math.floor(Math.random() * 6) +1 ;
+
+console.log('playerNumber', playerNumber)
+console.log('computerNumber', computerNumber)
