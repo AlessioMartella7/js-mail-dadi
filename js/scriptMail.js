@@ -18,3 +18,8 @@ Cosa devo controllare esattamente?
 //4 eseguo un controllo per verificare che la mail sia nella lista autorizzata
 //5 preparo un messaggio da rimandare all'utente
 //6 invio il messaggio al DOM
+
+//1 recupero gli elementi dal DOM
+const mailField = document.getElementById('email');
+const form = document.querySelector('form');
+const message = document.getElementById('sys-message');
