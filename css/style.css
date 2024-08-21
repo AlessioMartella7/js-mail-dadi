@@ -21,3 +21,25 @@ body{
 #result p:last-child {
     color: red;
 }
+
+form {
+    margin: 30px 10px;
+}
+
+#sys-message {
+    margin: 20px 10px ;
+
+    display: none;
+    color: red;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 5px;;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 5px #000;
+}
+
+
+#sys-message.display {
+    display: inline-block;
+}
